@@ -99,7 +99,7 @@
       transition: 0.2s opacity;
     }
 
-    button:hover,
+    button:hover, 
     button:focus,
     .button:hover,
     .button:focus {
@@ -111,9 +111,9 @@
 
     .profile__portrait {
       float: left;
-      width: 125px;
+      width: 250px;
       margin-right: 40px;
-      border-radius: 10%
+      border-radius: 50%;
     }
 
     .page-footer {
@@ -143,20 +143,14 @@
       text-align: left;
     } 
 
+    .contact {
+      margin: auto;
+    }
+
     .button_cv {
       max-width: 700px;
       margin: auto;
       text-align: center;
-    }
-
-    .contact {
-      max-width: 700px;
-      margin: 0 30px;
-    }
-
-    .form {
-      max-width: 700px;
-      margin: 0 30px;
     }
 
     * {
